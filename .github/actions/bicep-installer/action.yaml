@@ -8,7 +8,7 @@ runs:
     - name: Install AZ PowerShell
       uses: azure/powershell@v2
       with:
-        azPSVersion: 12.5.0
+        azPSVersion: '12.5.0'
         inlineScript: |
           Write-Host "Attempted Upgrade of AZ PowerShell 12.5.0"
 
