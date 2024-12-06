@@ -1,5 +1,5 @@
 ---
-name: Install Bicep and Update AZ PowerShell
+name: Install AZ PowerShell
 description: Install Bicep, Add to the Path and Update Az PowerShell to latest version
 
 runs:
