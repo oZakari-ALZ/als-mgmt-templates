@@ -7,7 +7,6 @@ runs:
   steps:
     - name: Install AZ PowerShell
       uses: azure/powershell@v2
-      if: ${{ env.runPowerShellAzUpgrade == 'true' }}
       with:
         azPSVersion: "12.5.0"
         inlineScript: |
