@@ -1,2 +1,2 @@
-# als-mgmt-templates
-als-mgmt-templates
+# gmr-mgmt-templates
+gmr-mgmt-templates
