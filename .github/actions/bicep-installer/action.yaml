@@ -5,12 +5,10 @@ description: Install Bicep, Add to the Path and Update Az PowerShell to latest v
 runs:
   using: "composite"
   steps:
-    - name: Install AZ PowerShell
+    - name: Install older version
       uses: azure/powershell@v2
       with:
-        azPSVersion: "12.5.0"
-        inlineScript: |
-          Write-Host "Attempted Upgrade of AZ PowerShell 12.5.0"
+        azPSVersion: '12.5.0'
 
     - name: Install Bicep
       run: |
